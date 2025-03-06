@@ -7,9 +7,13 @@ Saves every request/response pair to its own file in the logs folder
 
 # Set up your endpoint in .env
 
-TARGET_URL=https://your--endpoint.com
+```env
+TARGET_URL=https://whatever.com
 PROXY_PORT=3000
+```
 
 # Run it
 
+```bash
 npm start
+```
